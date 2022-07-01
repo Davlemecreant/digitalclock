@@ -12,8 +12,20 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     min-height: 100vh;
     background: #2f363e;
+}
+
+.title
+{
+    padding-bottom: 50px;
+    font-size: 2em;
+    background: -webkit-linear-gradient(40deg, #04fc43, #fee800, #fc0404);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+  
+ 
 }
 
 #time
