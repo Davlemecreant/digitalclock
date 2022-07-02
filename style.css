@@ -121,8 +121,3 @@ body
     0 0 60px var(--clr);
 }
 
-@media only screen and (max-width: 500px){
- .title{font-size: 1em;}
- #time{gap:10px;
-       Padding: 20px;}
-}
