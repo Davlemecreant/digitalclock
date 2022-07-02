@@ -127,5 +127,11 @@ body
     #time
     {
         flex-direction: column;
+        padding: 40px;
+    }
+
+    .title
+    {
+        font-size: 1.2em;
     }
 }
