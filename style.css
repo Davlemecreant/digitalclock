@@ -120,3 +120,9 @@ body
     box-shadow: 0 0 20px var(--clr),
     0 0 60px var(--clr);
 }
+
+@media only screen and (max-width: 500px){
+ .title{font-size: 1.5em;}
+ #time{gap:10px;
+       Padding: 20px;}
+}
