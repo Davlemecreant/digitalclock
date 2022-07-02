@@ -127,6 +127,7 @@ body
      body 
    {
     margin: auto;
+    min-height: auto;   
    }
     
     #time
