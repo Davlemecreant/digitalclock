@@ -126,7 +126,7 @@ body
 {
     #time
     {
-        gap:20px;
+        gap:10px;
         flex-direction: column;
         padding: 40px;
     }
