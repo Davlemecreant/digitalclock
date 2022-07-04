@@ -1,21 +1,21 @@
 setInterval(() =>{
-    var hours = document.getElementById('hours');
-    var minutes = document.getElementById('minutes');
-    var seconds = document.getElementById('seconds');
-    var ampm = document.getElementById('ampm');
+    let hours = document.getElementById('hours');
+    let minutes = document.getElementById('minutes');
+    let seconds = document.getElementById('seconds');
+    let ampm = document.getElementById('ampm');
 
-    var hh = document.getElementById('hh');
-    var mm = document.getElementById('mm');
-    var ss = document.getElementById('ss');
+    let hh = document.getElementById('hh');
+    let mm = document.getElementById('mm');
+    let ss = document.getElementById('ss');
 
-    var hr_dot = document.querySelector('.hr_dot');
-    var min_dot = document.querySelector('.min_dot');
-    var sec_dot = document.querySelector('.sec_dot');
+    let hr_dot = document.querySelector('.hr_dot');
+    let min_dot = document.querySelector('.min_dot');
+    let sec_dot = document.querySelector('.sec_dot');
 
-    var h = new Date().getHours();
-    var m = new Date().getMinutes();
-    var s = new Date().getSeconds();
-    var am = h >= 12 ? "PM"  : "AM";
+    let h = new Date().getHours();
+    let m = new Date().getMinutes();
+    let s = new Date().getSeconds();
+    let am = h >= 12 ? "PM"  : "AM";
 
     // conversion 24h en 12h
     if (h > 12){
